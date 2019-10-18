@@ -26,6 +26,6 @@ export class GulpFile {
             ],
             stdin: true,
             stdout: true
-        })
+        });
     }
 }
