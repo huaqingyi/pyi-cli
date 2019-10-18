@@ -1,0 +1,1 @@
+{"version":3,"sources":["dto/test.dto.ts"],"names":[],"mappings":";;;;;;;;AAAA,6BAAkC;AAGlC,IAAa,OAAO,GAApB,MAAa,OAAQ,SAAQ,YAAM;CAGlC,CAAA;AAHY,OAAO;IADnB,SAAG;GACS,OAAO,CAGnB;AAHY,0BAAO","file":"../../dto/test.dto.js","sourcesContent":["import { Dto, PYIDto } from 'pyi';\n\n@Dto\nexport class TestDto extends PYIDto {\n    public err!: boolean;\n    public data!: any;\n}\n"]}

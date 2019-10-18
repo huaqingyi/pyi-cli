@@ -1,0 +1,1 @@
+{"version":3,"sources":["starter.ts"],"names":[],"mappings":";;AAAA,+CAA4C;AAE5C,MAAM,GAAG,GAAG,IAAI,yBAAW,EAAE,CAAC;AAC9B,GAAG,CAAC,OAAO,EAAE,CAAC","file":"../starter.js","sourcesContent":["import { Application } from './application';\n\nconst app = new Application();\napp.starter();\n"]}
