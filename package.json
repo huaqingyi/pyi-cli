@@ -1,0 +1,57 @@
+{
+  "name": "pyi-cli",
+  "version": "1.0.0",
+  "description": "This Typescript MVC Server Framework ... 轻量级 restful 快速开发",
+  "main": "bin/index.js",
+  "bin": {
+    "pyi": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huaqingyi/pyi-cli.git"
+  },
+  "keywords": [
+    "pyi"
+  ],
+  "author": "huaqingyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huaqingyi/pyi-cli/issues"
+  },
+  "homepage": "https://github.com/huaqingyi/pyi-cli#readme",
+  "dependencies": {
+    "args": "^5.0.1",
+    "colors": "^1.4.0",
+    "fs-extra": "^8.1.0",
+    "gulp": "^4.0.2",
+    "gulp-install": "^1.1.0",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^5.0.1",
+    "koa-bodyparser": "^4.2.1",
+    "merge2": "^1.3.0",
+    "moment": "^2.24.0",
+    "node-schedule": "^1.3.2",
+    "pyi": "^1.1.4",
+    "request": "^2.88.0",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {
+    "@types/args": "^3.0.0",
+    "@types/colors": "^1.2.1",
+    "@types/fs-extra": "^8.0.1",
+    "@types/gulp": "^4.0.6",
+    "@types/gulp-install": "^0.6.31",
+    "@types/gulp-nodemon": "0.0.32",
+    "@types/gulp-sourcemaps": "0.0.32",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/merge2": "^1.1.4",
+    "@types/node-schedule": "^1.2.4",
+    "@types/request": "^2.48.3",
+    "@types/unzip": "^0.1.1",
+    "gyi": "^1.0.3"
+  }
+}
